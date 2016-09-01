@@ -1,13 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="rushit_049.aspx.cs" Inherits="GreetingCardWebApp.rushit_049" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="version4.aspx.cs" Inherits="GreetingCardWebApp.RUSHIT_CE049.version4" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title> Greeting Card App </title>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
+    <div>
     <div>
         Choose a background color:<br />
         <asp:DropDownList ID="lstBackColor" runat="server" Width="194px" Height="22px" AutoPostBack="True" />
@@ -16,23 +17,21 @@
         <asp:DropDownList ID="lstFontName" runat="server" Width="194px" Height="22px" AutoPostBack="True" />
         <br/><br/>
         Specify a numeric font size:<br />
-        <asp:TextBox ID="txtFontSize" runat="server" AutoPostBack="True" >25</asp:TextBox>
+        <asp:TextBox ID="txtFontSize" runat="server" AutoPostBack="True" Text="5"></asp:TextBox>
         <br /><br />
         Choose a border style:<br />
         <asp:RadioButtonList ID="lstBorder" runat="server" Width="177px" Height="59px" AutoPostBack="True" />
         <br /><br />
-        <asp:CheckBox ID="chkPicture" runat="server" Text="Add the Default Picture" AutoPostBack="True"></asp:CheckBox>
-        <br /><br />
         Enter the greeting text below:<br />
         <asp:TextBox ID="txtGreeting" runat="server" Width="240px" Height="85px" TextMode="MultiLine" AutoPostBack="True"  />
         <br /><br />
-        <asp:Button ID="cmdUpdate" OnClick="cmdUpdate_Click" runat="server" Width="71px" Height="24px" Text="Update" />
+        <asp:Button ID="cmdUpdate" runat="server" Width="71px" Height="24px" Text="Update" />
     </div>
         <asp:Panel ID="pnlCard" runat="server" Width="339px" Height="481px" HorizontalAlign="Center" style="POSITION: absolute; TOP: 16px; LEFT: 313px;">
         <br />&nbsp;
         <asp:Label ID="lblGreeting" runat="server" Width="256px" Height="150px" /><br /><br /><br />
-        <asp:Image ID="imgDefault" runat="server" Width="212px" Height="160px" />
         </asp:Panel>
-</form>
+    </div>
+    </form>
 </body>
 </html>

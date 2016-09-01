@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GreetingCardWebApp {
+namespace GreetingCardWebApp.RUSHIT_CE049 {
     
     
-    public partial class rushit_049 {
+    public partial class version4 {
         
         /// <summary>
         /// form1 control.
@@ -58,15 +58,6 @@ namespace GreetingCardWebApp {
         protected global::System.Web.UI.WebControls.RadioButtonList lstBorder;
         
         /// <summary>
-        /// chkPicture control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkPicture;
-        
-        /// <summary>
         /// txtGreeting control.
         /// </summary>
         /// <remarks>
@@ -101,14 +92,5 @@ namespace GreetingCardWebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblGreeting;
-        
-        /// <summary>
-        /// imgDefault control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgDefault;
     }
 }
